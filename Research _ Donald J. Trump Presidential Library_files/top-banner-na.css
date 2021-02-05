@@ -1,0 +1,587 @@
+#narabanner, #nara_banner_modal{ 
+  all:initial;
+}
+
+/*hide until fully loaded*/
+div.banner-nara-mxg{
+  display:block;
+}
+
+
+#narabanner{
+  margin: 0 0;
+  background-color:white;
+  width:100%;
+  display:block;
+  font-family: "Source Sans Pro", sans-serif;
+}
+#narabanner > div{
+  padding-top:1px;
+}
+.banner-nara-mxg {
+    background-color:white;
+    color: var(--blue-bg-color);
+    display: block;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0px 8px 0 0px;
+    position:relative;
+    /*z-index:99999;*/
+}
+
+
+.banner-nara-mxg a {
+    color: var(--blue-bg-color);
+    text-decoration: none !important;
+}
+.banner-nara-mxg a:hover {
+    color: var(--blue-alt-color) !important;
+    text-decoration: underline;
+}
+
+img.nara-logo-mxg {
+    height: 30px !important;
+    margin-left:20px;
+    border:none;
+}
+.title-mxg, .t-mxg {
+  color: var(--blue-bg-color);
+  font-size: 20px;
+  font-weight:bold;
+}
+
+
+.collapsible-mxg {
+  background-color: white;
+  border-radius: 10px;
+  color: var(--blue-bg-color);
+  cursor: pointer;
+  padding: 7px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 14px;
+  border: solid 1px #f1f1f1;
+  font-weight:normal;
+
+
+}
+
+.nara-branding-bar #nara_banner_modal{
+  display:none;
+  top:0px;
+}
+
+a.collapsible-mxg {    
+    padding: 5px 5px !important;
+    margin: 7px 0px !important;
+    line-height:1em !important;
+    height:auto !important;
+    background-color:transparent !important;
+    vertical-align: top;
+    color:black;
+    border-radius: 5px !important;
+
+}
+#narabanner a.collapsible-mxg:active
+{  
+  display:inline-block !important;    
+}
+
+#narabanner a.collapsible-mxg:focus{
+  border:2px solid #A6C7FF !important;
+}
+
+.active-mxg, .collapsible-mxg:hover {
+  background-color: var(--blue-alt-color);
+  color:black;
+}
+.nara-content-mxg {
+  /*padding: 0 18px !important;*/
+  display:block !important;
+  
+  font-weight:normal !important;
+  width:100%;
+  position:absolute;
+  background-color:white;
+  padding:0px 0px;
+  overflow:hidden;
+
+  }
+
+.nara-grid-mxg {
+    margin:18px 18px;
+    display: grid;
+    grid-template-columns: 100%;
+    /*grid-column-gap: 10px;*/
+    margin-top:50px;
+    
+}
+.nara-content-mxg .nara-container-mxg{
+  margin:0px 5px;
+}
+
+.nara-content-mxg p{  
+  margin: 10px 0px;
+}
+.nara-content-mxg ul {
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+.nara-content-mxg ul li {
+    margin-bottom: 6px !important;;
+    font-size: 16px !important;;
+    font-weight:normal;
+    background:none !important;
+    margin:0px 0px 6px 0px !important;
+    padding:0 !important;
+    line-height:24px;
+    list-style:none;
+
+}
+
+.nara-content-mxg a,
+.nara-content-mxg a:link,
+.nara-content-mxg a:visited{
+  color:black;
+  font-weight:normal !important;
+  text-decoration:none;
+}
+
+.nara-content-mxg a i{
+  display:none;
+}
+
+#nara_banner_modal_bg{  
+  padding:0;
+  height:0px;
+  width:0px;
+}
+
+
+
+
+.nara-banner-close-btn{
+  position:absolute;
+  top:8px;
+  right:0px;      
+  width:37px;
+  height:32px;
+  background-color: white !important;  
+  padding: 0px 0px;
+  margin: 0px 0px;
+  display:block;
+}
+
+.nara-banner-close-btn img{
+  margin:0;
+  padding:0;
+  padding-top:2px;
+}
+
+.nara-banner-close-btn img{
+  width:25px;
+}
+
+.nara-branding-expanded #nara_banner_modal{
+  width:98%;
+  position:absolute;
+  z-index:9999 !important;
+  top:0px;
+}
+.nara-branding-expanded #nara_banner_modal .nara-content-mxg{
+  display:block;
+  border: 1px solid lightgrey;
+  border-radius: 10px;  
+  z-index:9999 !important;
+  background-color:white;  
+  resize:both;
+  overflow:hidden;
+  margin:10px 10px;
+  width:100%;
+}
+
+.nara-branding-expanded #nara_banner_modal .nara-content-mxg b{
+  color: #112e51;
+}
+
+.nara-branding-bar .splash_list{
+  clear:both;
+  overflow:hidden;  
+}
+
+.nara-branding-bar .splash_list .splash_itm, .nara-branding-bar .deactivate{
+  display:none;  
+}
+
+
+.nara-branding-bar .splash_list{
+  font-size:1.5em;
+}
+.nara-branding-bar .splash_list .splash_active{
+  display:block;
+}
+
+
+.nara-branding-bar .splash-footer{
+  background-color:#F1F1F1;
+  font-size:16px;
+}
+
+.nara-branding-bar .splash-content{
+  overflow:hidden;  
+  padding:0px 10px; 
+}
+
+
+.nara-branding-bar .splash-content img{
+  max-width:100%;
+  
+}
+
+.nara-branding-bar .splash-footer li{
+  line-height:1em;
+}
+
+.nara-branding-bar .splash-maincontent,
+.nara-branding-bar .splash-footer .nara-banner-falsh-footer-content{
+  max-width:1024px;  
+  overflow:hidden;
+  margin: 0px auto;
+}
+
+.nara-branding-bar .splash-maincontent p{
+  margin: 25px 0px;
+}
+
+.nara-branding-bar #nara_banner_modal .splash-footer .nara-banner-splash-footer-col{  
+  float:left;  
+}
+
+.nara-branding-bar #nara_banner_modal .splash-footer .libaddress{
+  width:50%;    
+}
+.nara-branding-bar #nara_banner_modal .splash-footer .footerlinks{
+  width:50%;      
+}
+#narabanner .nara-branding-bar .ftlink-wrapper{
+  margin-left:50%;
+}
+.nara-branding-bar .splash-footer .libinfo{
+  display:inline-block;
+}
+
+
+.nara-branding-bar .nara-banner-splash-footer-col b{  
+  font-size:1.4em !important;  
+  font-weight:400;
+}
+.nara-branding-bar .splash-footer b a,
+.nara-branding-bar .splash-footer b a:link,
+.nara-branding-bar .splash-footer b a:visited{
+  color:#182C49;  
+  text-decoration: none;
+}
+
+
+.nara-branding-bar .splash-footer a,
+.nara-branding-bar  .splash-footer a:link,
+.nara-branding-bar  .splash-footer a:visited{
+  color: #182C46;    
+}
+
+#narabanner #nara-logo-footer{
+  display:block;
+  float:left;
+  margin-top:-20px;
+  margin-right:20px;
+
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:.7;
+  }
+
+}
+
+a.collapsible-mxg {      
+  padding: 5px 5px !important;
+  margin:7px 0px !important;
+  line-height:1em !important;
+  vertical-align: top;
+}
+.nara-logo-mxg {
+  height: 30px;
+  margin:5px 0px;
+}
+
+#narabanner>.banner-nara-mxg a{
+  display:inline-block;
+  margin-right:15px;
+  
+}
+#narabanner>.banner-nara-mxg a img{
+  width:100%;
+}
+
+@media (max-width: 388px) {
+  #narabanner>.banner-nara-mxg a{
+    margin-right:8px;
+    width:160px;
+  }
+
+}
+
+@media (min-width: 600px) {
+
+  .nara-branding-expanded #nara_banner_modal_bg{
+    background-color:black;
+    position:fixed;
+    height:100%;
+    width:100%;
+    z-index:9998 !important;
+    opacity:.7;
+    top:0px;
+    left:0px;
+    
+    animation: fadeOut 1s;
+    animation-direction: alternate;
+    
+  }
+
+  .nara-branding-expanded #nara_banner_modal{  
+    position:fixed;
+    z-index:9999 !important;
+    width:100%;
+    height:100%;
+    left:0px;
+  }
+  
+  
+
+    .nara-grid-mxg {
+      grid-template-columns: 20% 20% 30% 30%;
+    }
+    
+    
+    #narabanner>.banner-nara-mxg a.collapsible-mxg {
+      margin-left: 10px !important
+    }
+    .nara-branding-expanded #nara_banner_modal .nara-content-mxg{
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 90%;
+    }
+    
+}
+#narabanner .expanded .nara-content-mxg{
+  display:block;
+  border: 1px solid lightgrey;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#narabanner .text-align-center{
+  text-align:center;
+}
+
+#narabanner .btnlnk{
+  color: white;
+  padding: .5em;
+  background-color: #005EA2;  
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  padding: 1.4rem 1.5rem;    
+  -webkit-transition: background 1s; /* For Safari 3.0 to 6.0 */
+  transition: background 1s; /* For modern browsers */
+}
+
+#narabanner .btnlnk:hover{
+  background-color:#1A4480;
+
+}
+
+#narabanner a.btnlnk, a.btnlnk:link,a.btnlnk:visited{
+  color:white;
+  text-decoration:none;
+}
+
+@media (max-width: 425px) {
+  img.nara-logo-mxg{
+    margin-left:10px;    
+  }
+  /*
+  .banner-nara-mxg a{
+    width: calc(100% - 136px);
+    display:inline-block;
+  }
+  */
+  a.collapsible-mxg{
+    /*width:135px;*/
+  }
+}
+
+
+/**** IE 11 hacking ****/
+@media all and (-ms-high-contrast:none){
+  .nara-grid-mxg{
+    display:table;
+    width:100%;
+  }
+  .nara-grid-mxg .nara-container-mxg{    
+    display: table-cell;
+  }
+
+  img.nara-logo-mxg{
+    width:150px !important;
+  }
+  
+}
+
+@media (min-width: 600px) {
+  .nara-grid-mxg .nara-container-mxg:nth-child(4){    
+    margin-top:4.1em;
+  }
+}
+
+@media (min-width: 789px) {
+  .nara-grid-mxg .nara-container-mxg:nth-child(4){    
+    margin-top:2.7em;
+  }
+}
+
+
+/****************debug********************/
+/*
+body#debug #nara_banner_modal{
+  display:block !important;
+
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+}
+
+#debug #nara_banner_modal_bg {
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 998;
+  opacity: .7;
+  top: 0px;
+  animation: fadeOut 1s;
+  animation-direction: alternate;
+}
+
+#debug #nara_banner_content{
+  display:none;
+}
+
+#debug #nara_banner_modal .nara-content-mxg {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+
+  display: block;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  z-index: 999;
+  background-color: white;
+  resize: both;
+  overflow: hidden;
+  margin: 10px 10px;
+  
+  
+}
+
+
+
+body#debug.nara-branding-bar #nara_banner_modal .nara-content-mxg .splash_list .splash_itm#brandbar_jfk{
+  display:block;  
+}
+*/
+
+
+
+/********************** Site specific code **************************/
+.nara-banner-obhv #header #site-search {
+  top:100px;
+}
+
+.nara-banner-obhv #header{
+  border-top:0px;
+}
+
+@media only screen and (max-width: 314px){
+  .nara-banner-obhv #header #site-search{
+    top:130px;
+  }
+  .nara-banner-obhv #hamburger-btn{
+    position: absolute;
+    right: 5px;
+  }  
+}
+
+@media only screen and (min-width: 315px){
+  .nara-banner-obhv #header #site-search{
+    top:100px;
+  }  
+}
+
+@media only screen and (max-width: 770px){
+  .nara-banner-obhv .portal #portal-header {
+    margin-top:250px;
+  }
+}
+
+@media only screen and (min-height: 800px){
+  .nara-banner-obhv #hero blockquote {  
+    margin-top: 30px;
+  }
+  
+  #block-views-timeline-list-entire-timeline{
+    padding-top:20px;
+  }
+}
+    
+/*********************** eisenhower ****************/
+.narabanner-eisenhower .banner-nara-mxg{
+  max-width:1160px;
+}
+
+.jfklbrryrg>div.banner-nara-mxg,
+.frdlbrrymsmgv>div.banner-nara-mxg{
+  max-width:100%;
+}
+
+.clntnlbrrygv>div.banner-nara-mxg{
+  max-width:1090px;
+}
+
+
+@media only screen and (min-width: 800px){
+  .narabanner-reaganlib .banner-nara-mxg{
+    width:1040px;
+  }
+  .narabanner-reaganlib img.nara-logo-mxg {
+    margin-left:0px;
+  }
+  
+  .nixonlib .banner-nara-mxg{
+    width:1024px;
+  }
+  .eisenhowerlib .banner-nara-mxg{
+    width: 1160px;
+  }
+}
+
